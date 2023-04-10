@@ -1,0 +1,88 @@
+{
+    "settings": {},
+    "courses": [
+        {
+            "title": "Test Course",
+            "code": "TC101",
+            "term": "SP23",
+            "instructor": "John Smith",
+            "start_date": "01/02/03",
+            "end_date": "04/05/06",
+            "created_date": "04/07/23",
+            "cards": [
+                {
+                    "question": "What's my favorite color",
+                    "answer": "Green",
+                    "course": "Test Course",
+                    "date_added": "04/07/23",
+                    "times_viewed": 6
+                },
+                {
+                    "question": "2+2",
+                    "answer": "3",
+                    "course": "Test Course",
+                    "date_added": "04/07/23",
+                    "times_viewed": 1
+                },
+                {
+                    "question": "How many wheels does a car have?",
+                    "answer": "4",
+                    "course": "Test Course",
+                    "date_added": "04/07/23",
+                    "times_viewed": 4
+                },
+                {
+                    "question": "hey",
+                    "answer": "hey",
+                    "course": "Test Course",
+                    "date_added": "04/07/23",
+                    "times_viewed": 3
+                },
+                {
+                    "question": "Who?",
+                    "answer": "What?",
+                    "course": "Test Course",
+                    "date_added": "04/07/23",
+                    "times_viewed": 4
+                },
+                {
+                    "question": "How many women has Kevin slept with?",
+                    "answer": "2.5",
+                    "course": "Test Course",
+                    "date_added": "04/09/23",
+                    "times_viewed": 1
+                }
+            ]
+        },
+        {
+            "title": "Eating Ass 201",
+            "code": "EAT201",
+            "term": "SP23",
+            "instructor": "Me",
+            "start_date": " ",
+            "end_date": " ",
+            "created_date": "04/07/23",
+            "cards": []
+        },
+        {
+            "title": "Rizzing Women",
+            "code": "RIZZ329",
+            "term": "SP23",
+            "instructor": " ",
+            "start_date": " ",
+            "end_date": " ",
+            "created_date": "04/07/23",
+            "cards": []
+        },
+        {
+            "title": "Rivals Coaching",
+            "code": " ",
+            "term": " ",
+            "instructor": " ",
+            "start_date": " ",
+            "end_date": " ",
+            "created_date": "04/07/23",
+            "cards": []
+        }
+    ]
+}

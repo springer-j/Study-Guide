@@ -1,0 +1,70 @@
+---------------------------------------------------------------------------------
+
+Program Notes
+Program:    Estupyus
+Programmer: Jake Springer
+Date:       4/7/23
+Purpose:    Flash card app/study aid
+
+---------------------------------------------------------------------------------
+
+                    ///  Overview  ///
+
+Estupyus (play on estudious) is a flash card app/study aid built to help me
+in school to pass quizes and study for exams. Question objects (called "cards")
+are stored in a JSON file. 
+When running, the user has the option to select a course, and all cards are loaded
+for that class. The user can either choose to "study", in which the question is 
+given, an opportunity to answer, and then the correct answer. Or, the user can
+choose to search for specific questions from the "deck". Cards are entered 
+manually by the user. 
+
+# Courses
+Each course should have the following keys:
+    - Title
+    - ID (ex: ISTM183a)
+    - Term (ex: SP23)
+    - Instructor
+    - Start date
+    - End date
+    - Cards 
+
+# Cards
+Each card should have the following keys:
+    - Questions
+    - Answers
+    - The chapter (section) they belong to in the material
+    - Times viewed
+
+---------------------------------------------------------------------------------
+
+
+                     ///  To Do  ///
+
+[0] = Outstanding
+[X] = Completed
+
+[X] get_now() function, get todays date
+[X] Add created_date to course dict
+[0] select_course() - check for empty list
+[X] Function to update course information in loop
+[0] Quit-check while creating course
+
+---------------------------------------------------------------------------------
+
+
+                     ///  Notes  ///
+
+- One JSON file for all courses, or each course gets it's own file?
+- save_card() is kinda jank, but should work for now
+- System for updating view count on cards?
+    - Using save_course(), just rewrites the entire course object. Good enough for
+      me. 
+
+---------------------------------------------------------------------------------
+
+
+                     ///  Bugs  ///
+
+
+---------------------------------------------------------------------------------
